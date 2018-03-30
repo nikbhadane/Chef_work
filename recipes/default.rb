@@ -25,12 +25,12 @@ template "/var/www/html/index.html" do
 	)
 end
 
-#users = data_bag_item('sysuser','admin')
-#user "#{users['id']}" do
-#uid  "#{users['uid']}"
-#shell "#{users['shell']}"
-#comment "#{users['comment']}"
-#end
+users = data_bag_item('sysuser','admin')
+user "#{users['id']}" do
+uid  "#{users['uid']}"
+shell "#{users['shell']}"
+comment "#{users['comment']}"
+end
 
 
 
