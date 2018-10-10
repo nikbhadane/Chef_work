@@ -7,6 +7,7 @@ long_description 'Installs/Configures chef_test'
 version '0.2.28'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
+# added new changes to verify chef status
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
