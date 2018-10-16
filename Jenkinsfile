@@ -10,5 +10,7 @@ node {
         sh 'ls -al'
         sh 'df -h'
         sh 'cat /etc/passwd'
+        sh 'cat README.md'
+        sh 'Mastermind filesss'
     }
 }
