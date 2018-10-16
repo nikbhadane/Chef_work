@@ -8,7 +8,6 @@ node {
     stage('Build'){
         echo 'Hello World'
         sh 'ls -al'
-        sh 'cat *'
         sh 'df -h'
         sh 'cat /etc/passwd'
     }
