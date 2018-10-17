@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures chef_test'
 long_description 'Installs/Configures chef_test'
-version '0.2.28'
+version '0.2.29'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # added new changes to verify chef status
