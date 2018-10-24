@@ -1,6 +1,6 @@
 node{
       stage('Checkout'){
-        checkout([$class: 'GitSCM', branches: [[name: '**']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '12345', url: 'https://github.com/nikbhadane/Chef_work']]])
+        checkout scm
         }
        
     buildStep('CI-execution'){
